@@ -1,0 +1,21 @@
+
+
+.icons i::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.icons i{
+    position: relative;
+}
+.footer{
+    background-color: #1a252f;
+}

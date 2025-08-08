@@ -1,0 +1,40 @@
+.text-dark{
+    color: #2c3e50 !important;
+}
+.content p::after  {
+  content: "";
+  width: 80px;
+  background-color:#2c3e50 ;
+  position: absolute;
+  padding: 2px;
+  margin-top: 18%;
+  right: 22%;
+}
+.star::before  {
+  content: "";
+  width: 80px;
+  background-color: #2c3e50 ;
+  position: absolute;
+  padding: 2px;
+  margin-top: 17px;
+  right: 58%;
+}
+
+
+.content {
+  position: relative;
+}
+.hover{
+  opacity: 0;
+  transition: all .5s ;
+
+}
+
+.item:hover .hover{
+  display: block;
+  opacity: .9;
+}
+.image{
+  z-index: 9999;
+}
+

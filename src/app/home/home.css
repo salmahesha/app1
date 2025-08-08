@@ -1,0 +1,21 @@
+.content p::after  {
+  content: "";
+  width: 80px;
+  background-color: white;
+  position: absolute;
+  padding: 2px;
+  top: 86%;
+  right: 15.5%;
+}
+.star::before  {
+  content: "";
+  width: 80px;
+  background-color: white;
+  position: absolute;
+  padding: 2px;
+  margin-top: 14px;
+  right: 58%;
+}
+.content {
+  position: relative;
+}

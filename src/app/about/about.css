@@ -1,0 +1,30 @@
+:host{
+  background-color: #1abc9c;
+
+  display: block;
+  
+  
+ 
+}
+
+.content h1::after  {
+  content: "";
+  width: 80px;
+  background-color: white;
+  position: absolute;
+  padding: 2px;
+  margin-top:20%;
+  right: 18%;
+}
+.star::before  {
+  content: "";
+  width: 80px;
+  background-color: white;
+  position: absolute;
+  padding: 2px;
+  margin-top: 13px;
+  right: 56%;
+}
+.content {
+  position: relative;
+}
